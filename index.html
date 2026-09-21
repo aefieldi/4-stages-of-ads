@@ -1,0 +1,867 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="The four Meta ad campaigns I run, in order, to validate an offer with cold traffic and turn it into paid Skool members.">
+<meta name="author" content="Amanda Fielding-Smith">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Spiritual Business Skool">
+<meta property="og:title" content="The 4 Stages of Ads to Your Skool">
+<meta property="og:description" content="The four Meta ad campaigns I run, in order, to validate an offer with cold traffic and turn it into paid Skool members.">
+<meta property="og:url" content="https://aefieldi.github.io/4-stages-of-ads/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="The 4 Stages of Ads to Your Skool">
+<meta name="twitter:description" content="The four Meta ad campaigns I run, in order, to validate an offer with cold traffic and turn it into paid Skool members.">
+<style>
+/* Supplied by the Artifact host when published there; restated for the open web. */
+:root{color-scheme:dark;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+img{max-width:100%}
+</style>
+<title>4 Stages of Ads to Your Skool</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Cormorant+Garamond:ital,wght@0,600;1,500;1,600;1,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+/* Deliberately single-theme: the night sky is the brand. Every colour is painted explicitly. */
+:root{
+  --night:#0D0D1A; --night2:#14142A; --panel:#1A1A30; --panel2:#23233F;
+  --lav:#C5B8E8; --violL:#B88CED; --viol:#8B5FC7;
+  --mint:#7EECD4; --mintDeep:#3FBF95;
+  --pink:#E8A0E8; --gold:#E8C36A;
+  --txt:#EDEAF6; --txt2:#BDB8D4; --txt3:#8C87A6;
+  --line:rgba(197,184,232,.14); --line2:rgba(197,184,232,.28);
+  --hl:linear-gradient(90deg,var(--violL),var(--pink),var(--mint));
+  --serif:'Cormorant Garamond',Georgia,'Times New Roman',serif;
+  --sans:'Outfit',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --mono:'Space Mono',ui-monospace,Menlo,monospace;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth;background:var(--night)}
+body{
+  background:
+    radial-gradient(900px 600px at 8% -8%, rgba(139,95,199,.30), transparent 62%),
+    radial-gradient(700px 520px at 96% 6%, rgba(232,160,232,.12), transparent 60%),
+    radial-gradient(800px 600px at 80% 100%, rgba(63,191,149,.08), transparent 62%),
+    var(--night);
+  background-attachment:fixed;
+  color:var(--txt);font-family:var(--sans);font-size:16px;line-height:1.65;
+  -webkit-font-smoothing:antialiased;margin:0;
+}
+.wrap{max-width:1080px;margin:0 auto;padding-inline:20px}
+.g{font-family:var(--serif);font-style:italic;font-weight:700;background:var(--hl);-webkit-background-clip:text;background-clip:text;color:transparent;padding-right:.08em}
+.kicker{font-family:var(--mono);font-size:11.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--pink);margin:0}
+h1,h2,h3{margin:0;text-wrap:balance;letter-spacing:-.02em}
+p{margin:0}
+a{color:var(--mint)}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--mint);outline-offset:3px;border-radius:6px}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+
+/* ---------- hero ---------- */
+.hero{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center;padding-block:56px 40px}
+.hero h1{font-size:clamp(38px,5.8vw,68px);line-height:1.03;font-weight:800;margin-block:16px 18px}
+.hero h1 .g{display:block;font-size:1.06em;line-height:1.05}
+.hero .tag{font-family:var(--serif);font-style:italic;font-weight:600;font-size:clamp(23px,2.7vw,31px);line-height:1.2;color:var(--gold);margin-bottom:16px}
+.hero .lead{font-size:clamp(17px,1.7vw,19.5px);color:var(--txt2);max-width:34em}
+.byline{margin-top:22px;color:var(--txt3);font-size:14.5px;line-height:1.55;max-width:36em}
+.byline b{color:var(--txt);font-weight:600}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:12px 20px;border-radius:999px;border:1px solid var(--line2);background:transparent;cursor:pointer;font-weight:600;font-size:15px;text-decoration:none;color:var(--txt);transition:background .2s,border-color .2s}
+.btn:hover{background:rgba(197,184,232,.08);border-color:var(--lav)}
+.btn.primary{background:var(--txt);color:var(--night);border-color:var(--txt)}
+.btn.primary:hover{background:var(--mint);border-color:var(--mint)}
+.btn kbd{font-family:var(--mono);font-size:11px;padding:2px 6px;border-radius:4px;background:rgba(13,13,26,.12)}
+
+.ladder-wrap{position:relative;max-width:430px;width:100%;justify-self:center}
+.ladder-wrap svg{width:100%;height:auto;display:block;overflow:visible}
+.ladder-cap{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--txt3);text-align:center;margin-top:10px}
+.rung{fill:rgba(35,35,63,.7);stroke:var(--line2);stroke-width:1;cursor:pointer;transition:fill .2s,stroke .2s}
+.rung:hover,.rung.active{fill:rgba(139,95,199,.5);stroke:var(--lav)}
+.r-hit{fill:transparent;cursor:pointer}
+.r-n{font-family:var(--mono);fill:var(--txt3);font-size:12px;pointer-events:none}
+.r-t{font-family:var(--sans);fill:var(--txt);font-size:14.5px;font-weight:600;pointer-events:none}
+.r-s{font-family:var(--mono);fill:var(--mint);font-size:10.5px;letter-spacing:.1em;pointer-events:none}
+.r-edge{font-family:var(--mono);fill:var(--txt3);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase}
+.r-spine{stroke:var(--line2);stroke-width:1;stroke-dasharray:3 4}
+
+/* ---------- tally ---------- */
+.tally{display:flex;flex-wrap:wrap;border:1px solid var(--line2);border-radius:22px;overflow:hidden;background:rgba(26,26,48,.55);margin-bottom:44px}
+.tally div{flex:1 1 150px;padding:18px 18px 16px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);margin:0 -1px -1px 0;display:flex;flex-direction:column;gap:2px}
+.tally b{font-family:var(--serif);font-style:italic;font-weight:700;font-size:clamp(36px,4vw,50px);line-height:1;background:var(--hl);-webkit-background-clip:text;background-clip:text;color:transparent;padding-right:.1em;font-variant-numeric:lining-nums}
+.tally span{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--txt);margin-top:6px}
+.tally small{font-size:13px;color:var(--txt3);line-height:1.35}
+
+/* ---------- foundation ---------- */
+.found{padding-block:44px;border-top:1px solid var(--line)}
+.found h2{font-size:clamp(26px,3.2vw,38px);font-weight:700;line-height:1.12;margin-block:12px 14px}
+.found .sub{color:var(--txt2);max-width:40em;margin-bottom:26px}
+.checks{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px}
+.chk{display:flex;gap:14px;align-items:flex-start;padding:16px 18px;border-radius:16px;border:1px solid var(--line);background:rgba(26,26,48,.5);cursor:pointer;transition:border-color .2s,background .2s;text-align:left}
+.chk:hover{border-color:var(--line2);background:rgba(35,35,63,.6)}
+.chk .box{flex:none;width:20px;height:20px;border-radius:6px;border:1.5px solid var(--txt3);margin-top:2px;position:relative;transition:background .2s,border-color .2s}
+.chk[aria-pressed="true"]{border-color:rgba(126,236,212,.4);background:linear-gradient(150deg,rgba(63,191,149,.12),rgba(26,26,48,.5) 65%)}
+.chk[aria-pressed="true"] .box{background:var(--mintDeep);border-color:var(--mintDeep)}
+.chk[aria-pressed="true"] .box::after{content:"";position:absolute;left:6px;top:2px;width:6px;height:11px;border-right:2px solid var(--night);border-bottom:2px solid var(--night);transform:rotate(42deg)}
+.chk b{display:block;font-weight:600;color:var(--txt);line-height:1.35}
+.chk small{display:block;color:var(--txt3);font-size:13.5px;line-height:1.45;margin-top:3px}
+.found-note{margin-top:18px;color:var(--txt3);font-size:14px;max-width:52em}
+
+/* ---------- why cold ---------- */
+.why{display:grid;grid-template-columns:1fr 1fr;gap:40px;padding-block:44px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);align-items:start}
+.why h2{font-size:clamp(26px,3.2vw,38px);font-weight:700;line-height:1.12;margin-top:12px}
+.why p{color:var(--txt2);max-width:36em}
+.why p + p{margin-top:14px}
+.pull{margin-top:20px;font-family:var(--serif);font-style:italic;font-weight:600;font-size:clamp(21px,2.4vw,28px);line-height:1.25;color:var(--gold)}
+.cost-table{width:100%;border-collapse:collapse;font-size:14.5px}
+.cost-table th{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--txt3);font-weight:400;text-align:left;padding:0 10px 10px}
+.cost-table td{padding:10px;border-top:1px solid var(--line);vertical-align:top;color:var(--txt2)}
+.cost-table td:first-child{font-family:var(--mono);color:var(--lav);width:4em;white-space:nowrap}
+.cost-table td:last-child{color:var(--txt)}
+.cost-table tr.boost td{border-top:1px solid var(--line2)}
+.cost-table tr.boost td:first-child{color:var(--gold)}
+
+/* ---------- sticky nav ---------- */
+.snav{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:rgba(13,13,26,.88);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.snav .wrap{display:flex;align-items:center;gap:12px}
+.snav-scroll{display:flex;gap:4px;overflow-x:auto;padding-block:10px;scrollbar-width:none;flex:1;min-width:0}
+.snav-scroll::-webkit-scrollbar{display:none}
+.snav a{flex:none;display:flex;align-items:center;gap:8px;padding:6px 12px;border-radius:999px;text-decoration:none;color:var(--txt2);font-size:13px;border:1px solid transparent;white-space:nowrap}
+.snav a i{font-family:var(--mono);font-style:normal;font-size:11px;color:var(--lav)}
+.snav a:hover{color:var(--txt);border-color:var(--line2)}
+.snav a.cur{color:var(--night);background:var(--lav)}
+.snav a.cur i{color:var(--night)}
+.snav .shot-open{flex:none;padding:7px 14px;font-size:13px}
+
+/* ---------- stages ---------- */
+.stages{padding-block:20px 10px}
+.stage{padding-block:64px;border-bottom:1px solid var(--line);scroll-margin-top:62px}
+.stage-head{display:grid;grid-template-columns:auto 1fr;gap:26px;align-items:start}
+.big-n{font-family:var(--serif);font-style:italic;font-weight:700;font-size:clamp(66px,9vw,108px);line-height:.82;background:var(--hl);-webkit-background-clip:text;background-clip:text;color:transparent;width:1.3em;text-align:center;padding-right:.06em}
+.stage-lbl{display:block;font-family:var(--mono);font-size:11px;color:var(--txt3);letter-spacing:.16em;margin-top:12px;text-align:center;text-transform:uppercase}
+.stage h2{font-size:clamp(27px,3.6vw,44px);font-weight:700;line-height:1.08;margin-block:10px 14px}
+.stage .runs{color:var(--txt2);font-size:16.5px;max-width:40em}
+.stage .runs + .runs{margin-top:12px}
+
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:34px}
+.side{border-radius:18px;padding:22px 24px;border:1px solid var(--line)}
+.side h3{font-family:var(--mono);font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;font-weight:700;margin-bottom:12px}
+.side ul{margin:0;padding:0;list-style:none;display:grid;gap:10px}
+.side li{position:relative;padding-left:20px;color:var(--txt2)}
+.side li::before{content:"";position:absolute;left:0;top:.72em;width:8px;height:8px;border-radius:50%}
+.do{background:linear-gradient(160deg,rgba(63,191,149,.10),rgba(26,26,48,.4))}
+.do h3{color:var(--mint)} .do li::before{background:var(--mintDeep)}
+.dont{background:linear-gradient(160deg,rgba(232,160,232,.10),rgba(26,26,48,.4))}
+.dont h3{color:var(--pink)} .dont li::before{background:transparent;border:1.5px solid var(--pink)}
+
+.lower{display:grid;grid-template-columns:1.25fr 1fr;gap:34px;margin-top:34px;align-items:start}
+.setup h3,.read h3{font-family:var(--mono);font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;font-weight:700;margin-bottom:14px}
+.setup h3{color:var(--gold)} .read h3{color:var(--lav)}
+.setup ol{margin:0;padding:0;list-style:none;display:grid;gap:12px;counter-reset:s}
+.setup li{position:relative;padding-left:34px;color:var(--txt);font-size:16.5px;line-height:1.45;counter-increment:s}
+.setup li::before{content:counter(s);position:absolute;left:0;top:.06em;font-family:var(--mono);font-size:12px;color:var(--gold);width:22px;height:22px;border:1px solid rgba(232,195,106,.45);border-radius:50%;display:grid;place-items:center;line-height:1}
+.read ul{margin:0;padding:0;list-style:none;display:grid;gap:11px}
+.read li{position:relative;padding-left:24px;color:var(--txt2);line-height:1.5}
+.read li::before{content:"";position:absolute;left:0;top:.66em;width:12px;height:2px;background:var(--lav)}
+.read .aside{margin-top:16px;color:var(--txt3);font-size:14px;line-height:1.5;border-left:2px solid var(--line2);padding-left:14px}
+.rule{margin-top:22px;padding:16px 20px;border-radius:14px;background:var(--panel2);border:1px solid var(--line2);font-weight:600;font-size:17px;line-height:1.38}
+.rule span{display:block;font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--mint);font-weight:400;margin-bottom:5px}
+
+/* ---------- calculator ---------- */
+.calc{margin-top:30px;border-radius:22px;border:1px solid rgba(126,236,212,.32);background:linear-gradient(150deg,rgba(63,191,149,.14),rgba(26,26,48,.7) 62%);padding:clamp(22px,3vw,30px);display:grid;grid-template-columns:minmax(200px,1fr) 1.4fr;gap:28px;align-items:center}
+.calc h3{font-family:var(--mono);font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;font-weight:700;color:var(--mint);margin-bottom:12px}
+.calc label{display:block;font-size:14px;color:var(--txt2);margin-bottom:8px}
+.field{display:flex;align-items:center;gap:0;border:1px solid var(--line2);border-radius:14px;background:rgba(13,13,26,.5);overflow:hidden;max-width:260px}
+.field span{font-family:var(--mono);color:var(--txt3);padding-left:16px;font-size:18px}
+.field input{flex:1;min-width:0;background:transparent;border:0;color:var(--txt);font-family:var(--mono);font-size:22px;padding:12px 14px 12px 6px;font-variant-numeric:tabular-nums}
+.field input:focus{outline:none}
+.field:focus-within{border-color:var(--mint)}
+.calc-out{display:grid;gap:14px}
+.calc-row{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px}
+.calc-row b{font-family:var(--serif);font-style:italic;font-weight:700;font-size:clamp(34px,4.6vw,52px);line-height:1;color:var(--mint);font-variant-numeric:lining-nums}
+.calc-row em{font-style:normal;font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--txt2)}
+.calc-row small{color:var(--txt3);font-size:13.5px}
+.calc-note{color:var(--txt3);font-size:13.5px;line-height:1.5;margin-top:4px}
+
+/* ---------- cheat ---------- */
+.cheat{padding-block:70px 30px}
+.cheat h2{font-size:clamp(28px,3.6vw,42px);font-weight:700;margin-block:12px 8px}
+.cheat .sub{color:var(--txt2);margin-bottom:26px;max-width:44em}
+.table-scroll{overflow-x:auto;border:1px solid var(--line);border-radius:16px}
+.cheat table{width:100%;min-width:720px;border-collapse:collapse;font-size:15px}
+.cheat th{text-align:left;font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--txt3);font-weight:400;padding:14px 16px;background:var(--panel)}
+.cheat td{padding:13px 16px;border-top:1px solid var(--line);vertical-align:top;color:var(--txt2)}
+.cheat td:first-child{white-space:nowrap;color:var(--txt);font-family:var(--mono);font-size:13px}
+.cheat td:last-child{color:var(--txt);font-weight:600}
+
+/* ---------- close ---------- */
+.close{padding-block:56px 80px}
+.close-card{border-radius:26px;padding:clamp(28px,5vw,56px);background:linear-gradient(140deg,rgba(139,95,199,.28),rgba(26,26,48,.8) 55%,rgba(63,191,149,.14));border:1px solid var(--line2);display:grid;grid-template-columns:1.3fr 1fr;gap:34px;align-items:center}
+.close-card h2{font-size:clamp(27px,3.4vw,42px);line-height:1.1;font-weight:700;margin-block:12px 14px}
+.close-card p{color:var(--txt2)}
+.fit{padding:24px 26px;border-radius:18px;background:rgba(13,13,26,.45);border:1px solid var(--line)}
+.fit ul{margin:14px 0 0;padding:0;list-style:none;display:grid;gap:12px}
+.fit li{position:relative;padding-left:26px;color:var(--txt2);line-height:1.45}
+.fit li::before{content:"";position:absolute;left:2px;top:.32em;width:12px;height:7px;border-left:2px solid var(--mint);border-bottom:2px solid var(--mint);transform:rotate(-45deg)}
+.fit b{color:var(--txt);font-weight:600}
+.paths{display:grid;grid-template-columns:1.35fr 1fr;gap:18px;margin-top:18px}
+.path{border-radius:22px;padding:clamp(24px,3.5vw,36px);border:1px solid var(--line);background:var(--panel);display:flex;flex-direction:column;gap:12px}
+.path.deep{border-color:rgba(126,236,212,.4);background:linear-gradient(150deg,rgba(63,191,149,.16),var(--panel) 60%)}
+.path h3{font-size:clamp(21px,2.3vw,29px);font-weight:700;line-height:1.15}
+.path p{color:var(--txt2)}
+.path-cta{margin-top:auto;padding-top:8px;display:flex;flex-wrap:wrap;align-items:center;gap:12px 18px}
+.path-cta small{color:var(--txt3);font-size:13px}
+.scarcity{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;color:var(--gold)}
+.scarcity i{width:7px;height:7px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 4px rgba(232,195,106,.18);font-style:normal}
+.fine{color:var(--txt3);font-size:13px;margin-top:26px;max-width:62em}
+
+/* ---------- screenshot mode ---------- */
+.shot{position:fixed;inset:0;z-index:100;background:rgba(13,13,26,.97);display:flex;flex-direction:column;gap:14px;
+  padding:calc(env(safe-area-inset-top,0px) + 16px) 16px calc(env(safe-area-inset-bottom,0px) + 16px)}
+.shot-top{display:flex;justify-content:space-between;align-items:center;gap:12px;max-width:1100px;width:100%;margin:0 auto;flex-wrap:wrap}
+.shot-top .kicker{color:var(--txt3)}
+.shot-tools{display:flex;gap:8px;flex-wrap:wrap}
+.shot-tools .btn{padding:8px 14px;font-size:13px}
+.shot-stage{flex:1;min-height:0;display:grid;place-items:center;container-type:size}
+.card{
+  aspect-ratio:9/16;width:min(100%,52vh);width:min(100%,56.25cqh);
+  border-radius:28px;border:1px solid var(--line2);overflow:hidden;position:relative;
+  background:
+    radial-gradient(520px 440px at 12% -6%, rgba(139,95,199,.42), transparent 64%),
+    radial-gradient(420px 360px at 100% 8%, rgba(232,160,232,.18), transparent 62%),
+    radial-gradient(460px 400px at 78% 104%, rgba(63,191,149,.16), transparent 62%),
+    var(--night);
+  display:flex;flex-direction:column;
+  padding:clamp(22px,4cqw,44px);
+  container-type:inline-size;
+}
+.card-body{flex:1;display:flex;flex-direction:column;justify-content:center;gap:clamp(12px,2.4cqw,22px);min-height:0;overflow:hidden}
+.card .kicker{font-size:clamp(9px,2.1cqw,14px);letter-spacing:.2em;color:var(--pink)}
+.card .cn{font-family:var(--serif);font-style:italic;font-weight:700;font-size:clamp(50px,17cqw,150px);line-height:.8;background:var(--hl);-webkit-background-clip:text;background-clip:text;color:transparent;padding-right:.06em}
+.card h2{font-size:clamp(24px,7.4cqw,62px);line-height:1.04;font-weight:800}
+.card .cl{font-size:clamp(14px,3.5cqw,28px);color:var(--txt2);line-height:1.4}
+.card ul{margin:0;padding:0;list-style:none;display:grid;gap:clamp(8px,1.9cqw,18px)}
+.card li{font-size:clamp(14px,3.6cqw,29px);line-height:1.28;color:var(--txt);padding-left:clamp(20px,4.6cqw,38px);position:relative}
+.card li::before{content:"";position:absolute;left:0;top:.42em;width:clamp(9px,2.2cqw,18px);height:clamp(9px,2.2cqw,18px);border-radius:50%;background:var(--mintDeep)}
+.card li.x::before{background:transparent;border:2px solid var(--pink)}
+.card li.d::before{background:var(--gold);border-radius:3px;transform:rotate(45deg)}
+.card .crule{font-family:var(--serif);font-style:italic;font-weight:600;font-size:clamp(20px,5.6cqw,48px);line-height:1.16;color:var(--gold)}
+.card .cbig{font-family:var(--serif);font-style:italic;font-weight:700;font-size:clamp(40px,13cqw,110px);line-height:.92;color:var(--mint)}
+.card-foot{display:flex;justify-content:space-between;align-items:baseline;gap:12px;font-family:var(--mono);font-size:clamp(8.5px,1.9cqw,13px);letter-spacing:.14em;text-transform:uppercase;color:var(--txt3);padding-top:clamp(12px,2.4cqw,22px);border-top:1px solid var(--line)}
+.card-foot b{color:var(--lav);font-weight:400}
+.shot-bottom{display:flex;justify-content:space-between;align-items:center;gap:12px;max-width:1100px;width:100%;margin:0 auto}
+.progress{flex:1;height:3px;background:var(--line);border-radius:3px;overflow:hidden}
+.progress i{display:block;height:100%;background:var(--hl);transition:width .3s}
+.shot-count{font-family:var(--mono);font-size:12px;color:var(--txt3);font-variant-numeric:tabular-nums;min-width:4.5em;text-align:right}
+.hint{font-family:var(--mono);font-size:11px;color:var(--txt3)}
+
+@media (max-width:900px){
+  .hero,.why,.lower,.close-card,.paths,.calc{grid-template-columns:1fr}
+  .hero{padding-block:36px 28px;gap:28px}
+  .ladder-wrap{max-width:380px}
+  .duo{grid-template-columns:1fr}
+  .stage{padding-block:48px}
+  .stage-head{gap:16px}
+  .calc{gap:20px}
+  .hint{display:none}
+}
+@media (max-width:480px){
+  .big-n{font-size:52px}
+  .snav .shot-open{display:none}
+  .card{border-radius:20px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *{transition:none!important;animation:none!important}
+}
+</style>
+</head>
+<body>
+<header class="wrap hero">
+  <div>
+    <p class="kicker">For experts with a platform · Meta ads → a paid Skool</p>
+    <h1>The 4 Stages of Ads <span class="g">to Your Skool</span></h1>
+    <p class="tag">Only cold traffic truly validates.</p>
+    <p class="lead">Four campaigns, run in order, that turn Meta ads into members of the room that pays you on repeat for what you already know, love and do. Two of them test what Skool is already promoting for free. Two of them buy the attention back.</p>
+    <p class="byline"><b>Amanda Fielding-Smith</b> · Spiritual Business Skool<br>I help established experts build the room that pays them on repeat: a paid community, amplified by AI-powered systems and paid ads.</p>
+    <div class="actions">
+      <a class="btn primary" href="#s1">Start at Stage 01</a>
+      <button class="btn" type="button" data-shot="0">Screenshot mode <kbd>S</kbd></button>
+    </div>
+  </div>
+  <div class="ladder-wrap">
+    <svg id="ladder" viewBox="-6 -22 372 372" role="group" aria-label="The four stages. Select one to jump to it."></svg>
+    <p class="ladder-cap">Tap a stage to jump in</p>
+  </div>
+</header>
+
+<div class="wrap"><div class="tally" id="tally" aria-label="The numbers that run this system"></div></div>
+
+<section class="wrap found" aria-labelledby="found-h">
+  <p class="kicker" style="color:var(--mint)">Stage zero · before you spend a dollar</p>
+  <h2 id="found-h">Ads don't build the trust. <span class="g">Your page does.</span></h2>
+  <p class="sub">Nobody opens Instagram saying "I hope I see an ad today." Your ad is a disruption to their regularly scheduled programming. When one actually lands — when someone thinks <em>holy shit, this is exactly what I'm looking for</em> — the very next thing they do is go and check your page to see whether you're a real person. If there's nothing there with your face on it, you paid for that click twice and got nothing.</p>
+  <div class="checks" id="checks"></div>
+  <p class="found-note">Tick these off as you get them. It saves in this browser, so the list is still here next time you open it.</p>
+</section>
+
+<section class="wrap why" aria-labelledby="why-h">
+  <div>
+    <p class="kicker">The part most people miss</p>
+    <h2 id="why-h">Skool is already running ads for you. <span class="g">Cold ones.</span></h2>
+    <p style="margin-top:16px">Growth Boost means Skool pays to run ads promoting your community. Every single person who sees one is cold traffic — they didn't come from your content, they've never heard of you, and they're deciding in about a second and a half.</p>
+    <p>Which means your offer has to have product-market fit with an audience that knows nothing. Who it is, what it is, who it's for, and how it helps — clear, and clear fast.</p>
+    <p>So Stages 01 and 02 aren't really about ads. They're you doing your homework on the two assets Skool is about to put in front of strangers, on Skool's budget, whether you tested them or not.</p>
+    <p class="pull">You're not spending money to get members here. You're spending a little to find out what to hand Skool.</p>
+  </div>
+  <div style="overflow-x:auto">
+    <table class="cost-table">
+      <thead><tr><th>Stage</th><th>What it costs you</th><th>What it buys</th></tr></thead>
+      <tbody>
+        <tr><td>01</td><td>Small test budget, a few days</td><td>A banner cold traffic picked</td></tr>
+        <tr><td>02</td><td>Same small budget again</td><td>Positioning that converts strangers</td></tr>
+        <tr><td>03</td><td>$5 a day</td><td>Followers, comments, ManyChat sends</td></tr>
+        <tr><td>04</td><td>2–3× your front-end, daily</td><td>Members</td></tr>
+        <tr class="boost"><td>Boost</td><td>Skool's money. You pay a commission per member who joins.</td><td>Cold traffic hitting a banner that already won</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<nav class="snav" aria-label="Stages">
+  <div class="wrap">
+    <div class="snav-scroll" id="snav"></div>
+    <button class="btn shot-open" type="button" data-shot="current">Screenshot mode</button>
+  </div>
+</nav>
+
+<main class="wrap stages" id="stages"></main>
+
+<section class="wrap cheat" aria-labelledby="cheat-h">
+  <p class="kicker" style="color:var(--gold)">Screenshot this</p>
+  <h2 id="cheat-h">All four stages on one page</h2>
+  <p class="sub">The whole system, in order, with the one thing you're allowed to change at each step. If you only save one thing from here, save this.</p>
+  <div class="table-scroll">
+    <table>
+      <thead><tr><th>Stage</th><th>Campaign</th><th>Budget</th><th>The one thing you change</th><th>Read it on</th></tr></thead>
+      <tbody id="cheatBody"></tbody>
+    </table>
+  </div>
+  <p class="found-note">You also need a Facebook Business Manager and an ad account before any of this runs. That's the bit nobody mentions until you're trying to press publish.</p>
+</section>
+
+<section class="wrap close">
+  <div class="close-card">
+    <div>
+      <p class="kicker" style="color:var(--mint)">The order is the strategy</p>
+      <h2>There's no one right way. <span class="g">There's only your way and consistency.</span></h2>
+      <p>There are plenty of other campaigns you can run. These are the four I actually run, in the order I actually run them — validate the offer with cold traffic, get more members out of Growth Boost, then grow the organic presence that makes the next round cheaper.</p>
+    </div>
+    <div class="fit">
+      <p class="kicker" style="color:var(--gold)">This is for you if</p>
+      <ul>
+        <li>You're an established expert or creator with <b>a platform already</b></li>
+        <li>You have <b>real client results</b> you can point to</li>
+        <li>You have <b>somewhere to send people</b> — a Skool, a membership, a room you own</li>
+        <li>You want to use dollars to buy <b>top-of-funnel reach and attention</b>, the most valuable resource there is</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="paths">
+    <div class="path deep">
+      <p class="kicker" style="color:var(--mint)">Want one person looking over the whole thing?</p>
+      <h3>Book a 1:1 Strategy Audit</h3>
+      <p>Sixty minutes on your funnel, your offer ladder and your ad set-up. You walk away with a custom strategy document and your next two to three highest-leverage moves mapped to your goals — the plan, not homework to go figure out.</p>
+      <div class="path-cta">
+        <a class="btn primary" href="https://cal.com/amanda-fielding-smith-ljdz7y/strategy-audit-open" target="_blank" rel="noopener">Book my strategy audit</a>
+        <span class="scarcity"><i></i>I take two audits a month</span>
+      </div>
+    </div>
+    <div class="path">
+      <p class="kicker" style="color:var(--lav)">Want the templates instead?</p>
+      <h3>Come inside Spiritual Business Skool</h3>
+      <p>The About Page Alchemist, the ad templates and the AI-powered systems I used to find every version in here. Plus a room full of Puffins building it their way.</p>
+      <div class="path-cta">
+        <a class="btn" href="https://www.skool.com/amanda/about" target="_blank" rel="noopener">Start for free</a>
+        <small>7-day free trial</small>
+      </div>
+    </div>
+  </div>
+  <p class="fine">Numbers and set-ups here are mine, from my own account and my own community, and they're a mechanism rather than a promise — ad costs move with your niche, your creative and your offer. Growth Boost terms, Meta's campaign options and Skool's commission are set by those platforms and change without asking me. Test on a small budget first, always.</p>
+</section>
+
+<div class="shot" id="shot" hidden role="dialog" aria-modal="true" aria-label="Screenshot mode">
+  <div class="shot-top">
+    <p class="kicker">Screenshot mode · 9:16 · one card per post</p>
+    <div class="shot-tools">
+      <button class="btn" type="button" id="shotFull">Full screen</button>
+      <button class="btn" type="button" id="shotClose">Exit <kbd>Esc</kbd></button>
+    </div>
+  </div>
+  <div class="shot-stage">
+    <article class="card" id="card" aria-live="polite"></article>
+  </div>
+  <div class="shot-bottom">
+    <button class="btn" type="button" id="shotPrev" aria-label="Previous card">←</button>
+    <span class="hint">← → to move · F full screen · Esc to exit</span>
+    <div class="progress"><i id="shotBar"></i></div>
+    <span class="shot-count" id="shotCount"></span>
+    <button class="btn" type="button" id="shotNext" aria-label="Next card">→</button>
+  </div>
+</div>
+
+<script>
+(function(){
+"use strict";
+
+/* ---------------- data ---------------- */
+
+var TALLY = [
+  {n:"4",  k:"Stages, in order",   s:"Two to validate, two to buy attention"},
+  {n:"6–10",k:"Cover cards tested", s:"Distinctly different, not tweaks"},
+  {n:"1",  k:"Variable at a time",  s:"Every other setting stays frozen"},
+  {n:"$5", k:"A day, engagement",   s:"And the same again on traffic"},
+  {n:"2–3×",k:"Front-end, daily",   s:"That's the sales campaign budget"}
+];
+
+var CHECKS = [
+  {t:"You're posting on Instagram", d:"Consistently, not in bursts. It's my number one traffic source, organic and paid."},
+  {t:"You're publishing long-form YouTube", d:"Ideally. It's the best thing going for know, like and trust."},
+  {t:"You have a process for cutting it down", d:"Long-form into short-form. I don't just run it through Opus Clip — you can, I just don't."},
+  {t:"Your face is on your content", d:"They will go and check your page. They need to see a real person there."},
+  {t:"You have somewhere to send people", d:"A Skool community, a membership, a room you own. This works on any platform; I'm using Skool."},
+  {t:"Business Manager and ad account", d:"Set up and out of the way before you try to publish anything."}
+];
+
+var STAGES = [
+  {
+    n:1, id:"s1", short:"Cover card",
+    lbl:"Sales campaign",
+    meta:"Sales campaign · small test budget · a few days",
+    title:"Test the cover card before Skool spends a cent on it",
+    runs:[
+      "Your group cover card is the image in the top right of your community — and it's the image Growth Boost puts in front of cold traffic. It should say exactly who it's for and what's inside. Not the name of your community.",
+      "Mine currently says <b>Claude for Spiritual Entrepreneurs</b>. The community is called Spiritual Business Skool. Those are two different jobs."
+    ],
+    doH:"The one variable",
+    doL:["The cover image itself","6 to 10 versions, distinctly different","Different colours, different words, different callouts","Not tweaks of the same design — real alternatives"],
+    noH:"Frozen — don't touch",
+    noL:["The ad copy. It's your About page copy, on every version.","Every campaign variable. No Advantage+, no dynamic anything.","Audience, placements, objective. All identical."],
+    setup:[
+      "Make 6–10 distinctly different cover cards",
+      "Build a regular sales campaign with every variable turned off",
+      "Paste your About page copy in as the ad copy",
+      "Small budget, let it run a few days"
+    ],
+    read:["Reach","Spend","Purchases — the one that actually decides it"],
+    aside:"Meta will push spend toward what's working before it ever tells you. Where the money went is the answer.",
+    rule:"The winner becomes your banner. Now Growth Boost is spending Skool's money on an image a cold audience already chose.",
+    cheat:{c:"Sales, all variables off", b:"Small test, a few days", v:"The cover image — 6 to 10 versions", r:"Reach, spend, purchases"}
+  },
+  {
+    n:2, id:"s2", short:"About copy",
+    lbl:"Same campaign",
+    meta:"Same campaign type · new variable · a few days",
+    title:"Lock the banner. Now test what it says.",
+    runs:[
+      "Same campaign type, same set-up, same small budget. You freeze the winning cover card from Stage 01 onto every ad, and the only thing that changes now is the About page copy.",
+      "This is what the About Page Alchemist is for — it's how I found every version of my banner and my copy in the first place."
+    ],
+    doH:"The one variable",
+    doL:["Your About page copy","Run several distinct versions, not reworded ones","Use the About Page Alchemist to spin them"],
+    noH:"Frozen — don't touch",
+    noL:["The winning cover card. It doesn't move again.","Budget and duration. Same as Stage 01.","Everything else you already froze."],
+    setup:[
+      "Duplicate the Stage 01 campaign",
+      "Drop the winning banner onto every ad",
+      "Swap in a different About page copy version per ad",
+      "Same small budget, same few days"
+    ],
+    read:["Reach","Spend","Conversions"],
+    aside:"You're looking for the combination now — banner plus copy — not the copy on its own.",
+    rule:"Banner and copy locked together. Your group positioning is done. Bada bing, bada boom.",
+    cheat:{c:"Sales, duplicate of Stage 01", b:"Same small test", v:"The About page copy", r:"Reach, spend, conversions"}
+  },
+  {
+    n:3, id:"s3", short:"Engagement + traffic",
+    lbl:"Always on",
+    meta:"Engagement + traffic · $5/day each · always on",
+    title:"Buy the attention back for $5 a day",
+    runs:[
+      "My Instagram got hacked about a month ago and I had to rebuild it from the ground up. Instagram is my number one traffic source — organic and paid — so I started running traffic campaigns for the first time. I'd now recommend them to anyone. Traffic buys you followers. Engagement buys you comments.",
+      "The creative is a reel promoting one specific thing inside your community, with a ManyChat automation behind it that delivers the thing <em>and</em> invites them in."
+    ],
+    doH:"Run these",
+    doL:["An engagement campaign at $5/day","A traffic campaign, set up the same way","Reels promoting one specific thing inside your community","A ManyChat automation that delivers it and invites them in"],
+    noH:"Turn these off",
+    noL:["Facebook placements. Instagram only.","Any CTA on the engagement ad except comment below."],
+    setup:[
+      "Make a reel about one specific thing inside your community",
+      "Wire it to a ManyChat automation that delivers it and invites them in",
+      "Run it as an engagement campaign, $5 a day",
+      "Duplicate as a traffic campaign, same creative",
+      "Set placements to Instagram only on both"
+    ],
+    read:["Followers gained","Comments on the ad","ManyChat sends"],
+    aside:"I have no ManyChat on Facebook, so I'm not paying for engagement I'll never answer. I'm not in there responding to Facebook comments, so I don't want to buy them.",
+    rule:"Right now the hook is: want the Rising Sign Business Decoder? Comment below and get it inside the 7-day free trial.",
+    cheat:{c:"Engagement, then traffic", b:"$5 a day, each", v:"Nothing — this one just runs", r:"Followers, comments, ManyChat sends"}
+  },
+  {
+    n:4, id:"s4", short:"Sales",
+    lbl:"Sales campaign",
+    meta:"Sales campaign · 2–3× your front-end offer, per day",
+    title:"Same reels. Different job.",
+    runs:[
+      "Download the exact reels already running in your engagement ads and re-upload them to a sales campaign. The creative is proven — you watched it earn comments. Nothing about it needs to change.",
+      "What changes is what happens after the tap."
+    ],
+    doH:"Run these",
+    doL:["Free or freemium community → optimise for registration","Paid community → optimise for purchase","The same reels, downloaded and re-uploaded"],
+    noH:"The one difference",
+    noL:["Copy says: click the link below to get this thing inside my community.","No ManyChat automation on this one. The link does the work."],
+    setup:[
+      "Download the reels running in your Stage 03 ads",
+      "Upload them to a new sales campaign",
+      "Set the conversion event — registration if free, purchase if paid",
+      "Rewrite the copy to send them to the link, not the comments",
+      "Set the daily budget at 2–3× your front-end offer"
+    ],
+    read:["Cost per registration, or cost per purchase","Spend against your 2–3× ceiling"],
+    aside:"I run Standard, Premium and VIP, so the front-end offer is my Standard tier — and 2–3× that is what I spend per day.",
+    rule:"Daily budget = 2 to 3× the price of your front-end offer. There are other variables, but that's the rule I run.",
+    calc:true,
+    cheat:{c:"Sales, registration or purchase", b:"2–3× your front-end, daily", v:"The copy — link, not comment", r:"Cost per registration or purchase"}
+  }
+];
+
+var CARDS = [
+  {type:"title"},
+  {type:"found"},
+  {type:"cold"},
+  {type:"stage", i:0},
+  {type:"stage", i:1},
+  {type:"stage", i:2},
+  {type:"stage", i:3},
+  {type:"budget"},
+  {type:"all"},
+  {type:"cta"}
+];
+
+/* ---------------- helpers ---------------- */
+
+var $ = function(s, r){ return (r||document).querySelector(s); };
+var pad = function(n){ return n < 10 ? "0" + n : "" + n; };
+var esc = function(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); };
+var li = function(arr, cls){
+  return arr.map(function(t){ return '<li' + (cls ? ' class="' + cls + '"' : '') + '>' + t + '</li>'; }).join("");
+};
+var money = function(n){
+  return "$" + (Math.round(n * 100) / 100).toLocaleString("en-US", {maximumFractionDigits: n < 10 ? 2 : 0});
+};
+
+/* ---------------- tally ---------------- */
+
+$("#tally").innerHTML = TALLY.map(function(t){
+  return '<div><b>' + t.n + '</b><span>' + t.k + '</span><small>' + t.s + '</small></div>';
+}).join("");
+
+/* ---------------- foundation checklist ---------------- */
+
+var KEY = "amanda.ads4.foundation";
+var done = {};
+try {
+  var raw = localStorage.getItem(KEY);
+  if (raw) done = JSON.parse(raw) || {};
+} catch (e) { done = {}; }
+
+$("#checks").innerHTML = CHECKS.map(function(c, i){
+  return '<button class="chk" type="button" data-chk="' + i + '" aria-pressed="' + (done[i] ? "true" : "false") + '">' +
+    '<span class="box" aria-hidden="true"></span>' +
+    '<span><b>' + esc(c.t) + '</b><small>' + esc(c.d) + '</small></span></button>';
+}).join("");
+
+$("#checks").addEventListener("click", function(ev){
+  var btn = ev.target.closest("[data-chk]");
+  if (!btn) return;
+  var i = btn.getAttribute("data-chk");
+  var on = btn.getAttribute("aria-pressed") === "true";
+  btn.setAttribute("aria-pressed", on ? "false" : "true");
+  if (on) delete done[i]; else done[i] = 1;
+  try { localStorage.setItem(KEY, JSON.stringify(done)); } catch (e) {}
+});
+
+/* ---------------- ladder svg ---------------- */
+
+(function(){
+  var W = 360, top = 10, h = 62, gap = 12;
+  var widths = [356, 312, 268, 224];
+  var parts = [];
+
+  parts.push('<text class="r-edge" x="180" y="-6" text-anchor="middle">Cold traffic</text>');
+
+  STAGES.forEach(function(s, i){
+    var w = widths[i], x = (W - w) / 2, y = top + i * (h + gap);
+    parts.push(
+      '<g>' +
+        '<rect class="rung" data-go="' + s.id + '" x="' + x + '" y="' + y + '" width="' + w + '" height="' + h + '" rx="16"></rect>' +
+        '<text class="r-n" x="' + (x + 20) + '" y="' + (y + 26) + '">' + pad(s.n) + '</text>' +
+        '<text class="r-t" x="' + (x + 20) + '" y="' + (y + 44) + '">' + esc(s.short) + '</text>' +
+        '<text class="r-s" x="' + (x + w - 20) + '" y="' + (y + 39) + '" text-anchor="end">' + esc(s.lbl) + '</text>' +
+        '<rect class="r-hit" data-go="' + s.id + '" x="' + x + '" y="' + y + '" width="' + w + '" height="' + h + '"></rect>' +
+      '</g>'
+    );
+  });
+
+  var endY = top + 4 * (h + gap);
+  parts.push('<line class="r-spine" x1="180" y1="' + (endY - 4) + '" x2="180" y2="' + (endY + 18) + '"></line>');
+  parts.push('<text class="r-edge" x="180" y="' + (endY + 34) + '" text-anchor="middle" style="fill:#7EECD4">Paid members</text>');
+
+  var svg = $("#ladder");
+  svg.innerHTML = parts.join("");
+  svg.addEventListener("click", function(ev){
+    var t = ev.target.closest("[data-go]");
+    if (!t) return;
+    var el = document.getElementById(t.getAttribute("data-go"));
+    if (el) el.scrollIntoView({behavior: "smooth", block: "start"});
+  });
+})();
+
+/* ---------------- stage nav ---------------- */
+
+$("#snav").innerHTML = STAGES.map(function(s){
+  return '<a href="#' + s.id + '" data-nav="' + s.id + '"><i>' + pad(s.n) + '</i>' + esc(s.short) + '</a>';
+}).join("");
+
+/* ---------------- stage sections ---------------- */
+
+$("#stages").innerHTML = STAGES.map(function(s){
+  var calc = s.calc ? (
+    '<div class="calc">' +
+      '<div>' +
+        '<h3>Daily budget</h3>' +
+        '<label for="feePrice">Your front-end offer, per month</label>' +
+        '<div class="field"><span>$</span><input id="feePrice" type="number" inputmode="decimal" min="0" step="1" value="33" aria-label="Front-end offer price in dollars"></div>' +
+      '</div>' +
+      '<div class="calc-out">' +
+        '<div class="calc-row"><b id="calcDay">$66 – $99</b><em>per day</em></div>' +
+        '<div class="calc-row"><small id="calcMonth"></small></div>' +
+        '<p class="calc-note">Two to three times your front-end price, spent daily. Start at 2× and only move up once the cost per purchase holds.</p>' +
+      '</div>' +
+    '</div>'
+  ) : "";
+
+  return '<section class="stage" id="' + s.id + '" aria-labelledby="' + s.id + '-t">' +
+    '<div class="stage-head">' +
+      '<div><div class="big-n">' + pad(s.n) + '</div><span class="stage-lbl">Stage</span></div>' +
+      '<div>' +
+        '<p class="kicker">' + esc(s.meta) + '</p>' +
+        '<h2 id="' + s.id + '-t">' + esc(s.title) + '</h2>' +
+        s.runs.map(function(r){ return '<p class="runs">' + r + '</p>'; }).join("") +
+      '</div>' +
+    '</div>' +
+    '<div class="duo">' +
+      '<div class="side do"><h3>' + esc(s.doH) + '</h3><ul>' + li(s.doL.map(esc)) + '</ul></div>' +
+      '<div class="side dont"><h3>' + esc(s.noH) + '</h3><ul>' + li(s.noL.map(esc)) + '</ul></div>' +
+    '</div>' +
+    '<div class="lower">' +
+      '<div class="setup"><h3>Set it up</h3><ol>' + li(s.setup.map(esc)) + '</ol>' +
+        '<div class="rule"><span>The rule</span>' + esc(s.rule) + '</div></div>' +
+      '<div class="read"><h3>Read the result on</h3><ul>' + li(s.read.map(esc)) + '</ul>' +
+        '<p class="aside">' + esc(s.aside) + '</p></div>' +
+    '</div>' +
+    calc +
+  '</section>';
+}).join("");
+
+/* ---------------- budget calculator ---------------- */
+
+(function(){
+  var input = $("#feePrice"), day = $("#calcDay"), month = $("#calcMonth");
+  if (!input) return;
+  function render(){
+    var v = parseFloat(input.value);
+    if (!isFinite(v) || v <= 0) {
+      day.textContent = "—";
+      month.textContent = "Put your front-end price in to see the range.";
+      return;
+    }
+    var lo = v * 2, hi = v * 3;
+    day.textContent = money(lo) + " – " + money(hi);
+    month.textContent = "That's " + money(lo * 30) + " – " + money(hi * 30) +
+      " over 30 days, and it needs to bring in more than " + Math.ceil(lo * 30 / v) +
+      " new members at " + money(v) + " to pay for itself at the low end.";
+  }
+  input.addEventListener("input", render);
+  render();
+})();
+
+/* ---------------- cheat sheet ---------------- */
+
+$("#cheatBody").innerHTML = STAGES.map(function(s){
+  return '<tr><td>' + pad(s.n) + ' · ' + esc(s.short) + '</td><td>' + esc(s.cheat.c) + '</td><td>' +
+    esc(s.cheat.b) + '</td><td>' + esc(s.cheat.v) + '</td><td>' + esc(s.cheat.r) + '</td></tr>';
+}).join("");
+
+var current = 0;
+
+/* ---------------- scrollspy ---------------- */
+
+(function(){
+  var links = {}, secs = [];
+  STAGES.forEach(function(s){
+    links[s.id] = $('[data-nav="' + s.id + '"]');
+    var el = document.getElementById(s.id);
+    if (el) secs.push(el);
+  });
+  if (!("IntersectionObserver" in window) || !secs.length) return;
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      var a = links[e.target.id];
+      if (!a) return;
+      if (e.isIntersecting) {
+        Object.keys(links).forEach(function(k){ if (links[k]) links[k].classList.remove("cur"); });
+        a.classList.add("cur");
+        current = STAGES.findIndex(function(s){ return s.id === e.target.id; });
+      }
+    });
+  }, {rootMargin: "-25% 0px -60% 0px"});
+  secs.forEach(function(s){ io.observe(s); });
+})();
+
+/* ---------------- screenshot mode ---------------- */
+
+var shot = $("#shot"), card = $("#card"), bar = $("#shotBar"), count = $("#shotCount");
+var idx = 0;
+
+function foot(a, b){
+  return '<div class="card-foot"><span>' + a + '</span><b>' + b + '</b></div>';
+}
+
+function buildCard(c){
+  var s, out;
+  if (c.type === "title") {
+    return '<div class="card-body">' +
+      '<p class="kicker">For experts with a platform</p>' +
+      '<h2>The 4 Stages of Ads <span class="g">to Your Skool</span></h2>' +
+      '<p class="crule">Only cold traffic truly validates.</p>' +
+      '<ul>' + li(["Test the cover card","Test the About page copy","Buy attention at $5 a day","Sell at 2–3× your front-end"]) + '</ul>' +
+      '</div>' + foot("Spiritual Business Skool", "@amandafieldingsmith");
+  }
+  if (c.type === "found") {
+    return '<div class="card-body">' +
+      '<p class="kicker">Stage zero</p>' +
+      '<h2>Nobody opens Instagram <span class="g">hoping to see an ad.</span></h2>' +
+      '<p class="cl">Your ad is a disruption. If it lands, the very next thing they do is check your page to see if you’re a real person.</p>' +
+      '<ul>' + li(["Posting on Instagram","Long-form YouTube","Your face on your content","Somewhere to send them"]) + '</ul>' +
+      '</div>' + foot("Before you spend a dollar", "@amandafieldingsmith");
+  }
+  if (c.type === "cold") {
+    return '<div class="card-body">' +
+      '<p class="kicker">The part most people miss</p>' +
+      '<h2>Skool is already running ads for you. <span class="g">Cold ones.</span></h2>' +
+      '<p class="cl">Growth Boost puts your cover card in front of people who have never heard of you — on Skool’s budget, whether you tested it or not.</p>' +
+      '<p class="crule">So test it first.</p>' +
+      '</div>' + foot("Growth Boost", "@amandafieldingsmith");
+  }
+  if (c.type === "stage") {
+    s = STAGES[c.i];
+    out = '<div class="card-body">' +
+      '<div class="cn">' + pad(s.n) + '</div>' +
+      '<p class="kicker">' + esc(s.lbl) + '</p>' +
+      '<h2>' + esc(s.title) + '</h2>' +
+      '<ul>' + li(s.doL.slice(0, 3).map(esc)) + li(s.noL.slice(0, 1).map(esc), "x") + '</ul>' +
+      '<p class="crule">' + esc(s.rule) + '</p>' +
+      '</div>';
+    return out + foot("Stage " + pad(s.n) + " of 04", "@amandafieldingsmith");
+  }
+  if (c.type === "budget") {
+    return '<div class="card-body">' +
+      '<p class="kicker">Stage 04 · the maths</p>' +
+      '<h2>What to spend a day <span class="g">on the sales campaign</span></h2>' +
+      '<p class="cbig">2–3×</p>' +
+      '<p class="cl">the price of your front-end offer, every day. There are other variables. That’s the rule I run.</p>' +
+      '</div>' + foot("Daily budget", "@amandafieldingsmith");
+  }
+  if (c.type === "all") {
+    return '<div class="card-body">' +
+      '<p class="kicker">Save this one</p>' +
+      '<h2>All four, <span class="g">in order</span></h2>' +
+      '<ul>' +
+        '<li class="d"><b>01</b> &nbsp;Cover card — 6 to 10 versions</li>' +
+        '<li class="d"><b>02</b> &nbsp;About page copy — banner locked</li>' +
+        '<li class="d"><b>03</b> &nbsp;Engagement + traffic — $5/day</li>' +
+        '<li class="d"><b>04</b> &nbsp;Sales — 2–3× your front-end</li>' +
+      '</ul>' +
+      '<p class="crule">One variable at a time. That’s the whole discipline.</p>' +
+      '</div>' + foot("The 4 Stages of Ads", "@amandafieldingsmith");
+  }
+  return '<div class="card-body">' +
+    '<p class="kicker">Come build the room</p>' +
+    '<h2>The room that pays you <span class="g">on repeat</span></h2>' +
+    '<p class="cl">For what you already know, love and do. Templates, AI-powered systems and a community of spiritual entrepreneurs building it their way.</p>' +
+    '<ul>' + li(["Spiritual Business Skool — 7-day free trial","Or book a 1:1 Strategy Audit"]) + '</ul>' +
+    '</div>' + foot("skool.com/amanda", "@amandafieldingsmith");
+}
+
+function showCard(i){
+  idx = (i + CARDS.length) % CARDS.length;
+  card.innerHTML = buildCard(CARDS[idx]);
+  bar.style.width = ((idx + 1) / CARDS.length * 100) + "%";
+  count.textContent = pad(idx + 1) + " / " + pad(CARDS.length);
+}
+
+function openShot(from){
+  var start = 0;
+  if (from === "current") {
+    var si = CARDS.findIndex(function(c){ return c.type === "stage" && c.i === current; });
+    start = si > -1 ? si : 0;
+  } else {
+    start = parseInt(from, 10) || 0;
+  }
+  shot.hidden = false;
+  document.documentElement.style.overflow = "hidden";
+  showCard(start);
+  $("#shotNext").focus();
+}
+
+function closeShot(){
+  shot.hidden = true;
+  document.documentElement.style.overflow = "";
+  if (document.fullscreenElement && document.exitFullscreen) document.exitFullscreen();
+}
+
+Array.prototype.forEach.call(document.querySelectorAll("[data-shot]"), function(b){
+  b.addEventListener("click", function(){ openShot(b.getAttribute("data-shot")); });
+});
+$("#shotClose").addEventListener("click", closeShot);
+$("#shotPrev").addEventListener("click", function(){ showCard(idx - 1); });
+$("#shotNext").addEventListener("click", function(){ showCard(idx + 1); });
+$("#shotFull").addEventListener("click", function(){
+  if (document.fullscreenElement) {
+    if (document.exitFullscreen) document.exitFullscreen();
+  } else if (shot.requestFullscreen) {
+    shot.requestFullscreen();
+  }
+});
+
+document.addEventListener("keydown", function(ev){
+  var tag = (ev.target && ev.target.tagName) || "";
+  if (tag === "INPUT" || tag === "TEXTAREA") return;
+  if (shot.hidden) {
+    if (ev.key === "s" || ev.key === "S") { ev.preventDefault(); openShot("current"); }
+    return;
+  }
+  if (ev.key === "Escape") { ev.preventDefault(); closeShot(); }
+  else if (ev.key === "ArrowRight") { ev.preventDefault(); showCard(idx + 1); }
+  else if (ev.key === "ArrowLeft") { ev.preventDefault(); showCard(idx - 1); }
+  else if (ev.key === "f" || ev.key === "F") { ev.preventDefault(); $("#shotFull").click(); }
+});
+
+})();
+</script>
+
+</body>
+</html>
