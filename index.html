@@ -9,8 +9,10 @@
 <meta property="og:site_name" content="Spiritual Business Skool">
 <meta property="og:title" content="The 4 Stages of Ads to Your Skool">
 <meta property="og:description" content="The four Meta ad campaigns I run, in order, to validate an offer with cold traffic and turn it into paid Skool members.">
+<meta property="og:image" content="https://img.youtube.com/vi/b_sAWqOslZM/maxresdefault.jpg">
+<meta name="twitter:image" content="https://img.youtube.com/vi/b_sAWqOslZM/maxresdefault.jpg">
 <meta property="og:url" content="https://aefieldi.github.io/4-stages-of-ads/">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="The 4 Stages of Ads to Your Skool">
 <meta name="twitter:description" content="The four Meta ad campaigns I run, in order, to validate an offer with cold traffic and turn it into paid Skool members.">
 <style>
@@ -256,6 +258,32 @@ button{font:inherit;color:inherit}
 .shot-count{font-family:var(--mono);font-size:12px;color:var(--txt3);font-variant-numeric:tabular-nums;min-width:4.5em;text-align:right}
 .hint{font-family:var(--mono);font-size:11px;color:var(--txt3)}
 
+/* ---------- video walkthrough ---------- */
+.walk{padding-block:40px 0}
+.walk-card{position:relative;display:block;border-radius:24px;overflow:hidden;border:1px solid var(--line2);background:var(--panel);box-shadow:0 30px 80px rgba(13,13,26,.55),0 0 0 1px rgba(197,184,232,.06);aspect-ratio:16/9;isolation:isolate}
+.walk-card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s ease}
+.walk-card::after{content:"";position:absolute;inset:0;background:rgba(13,13,26,.18);z-index:1;transition:background .2s}
+.walk-play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:2;width:clamp(72px,9vw,104px);height:clamp(72px,9vw,104px);border-radius:50%;background:var(--txt);color:var(--night);display:grid;place-items:center;box-shadow:0 18px 50px rgba(13,13,26,.6),0 0 0 10px rgba(237,234,246,.16);transition:background .2s,transform .2s,box-shadow .2s}
+.walk-play svg{width:38%;height:38%;margin-left:6%;fill:currentColor}
+.walk-dur{position:absolute;right:16px;bottom:14px;z-index:2;font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--txt);background:rgba(13,13,26,.78);border:1px solid var(--line2);padding:6px 11px;border-radius:999px}
+.walk-link{display:block;text-decoration:none;color:var(--txt)}
+.walk-link:hover .walk-card::after,.walk-link:focus-visible .walk-card::after{background:rgba(13,13,26,.06)}
+.walk-link:hover .walk-card img,.walk-link:focus-visible .walk-card img{transform:scale(1.03)}
+.walk-link:hover .walk-play,.walk-link:focus-visible .walk-play{background:var(--mint);transform:translate(-50%,-50%) scale(1.06);box-shadow:0 18px 50px rgba(13,13,26,.6),0 0 0 14px rgba(126,236,212,.18)}
+.walk-meta{display:flex;justify-content:space-between;align-items:center;gap:18px;padding:18px 6px 0}
+.walk-meta .kicker{color:var(--mint);margin-bottom:5px}
+.walk-meta strong{display:block;font-size:clamp(17px,2.1vw,23px);font-weight:700;line-height:1.2}
+.walk-meta .go{flex:none;display:inline-flex;align-items:center;gap:8px;padding:10px 18px;border-radius:999px;border:1px solid var(--line2);font-weight:600;font-size:14px;color:var(--txt);transition:background .2s,border-color .2s,color .2s}
+.walk-link:hover .go,.walk-link:focus-visible .go{background:var(--mint);border-color:var(--mint);color:var(--night)}
+.walk-cap{margin-top:14px;color:var(--txt3);font-size:14px}
+@media (max-width:600px){
+  .walk{padding-block:24px 0}
+  .walk-card{border-radius:18px}
+  .walk-dur{right:10px;bottom:10px;font-size:10.5px;padding:5px 9px}
+  .walk-play{box-shadow:0 12px 30px rgba(13,13,26,.6),0 0 0 7px rgba(237,234,246,.16)}
+  .walk-meta{flex-direction:column;align-items:flex-start;gap:12px;padding-top:14px}
+  .walk-meta strong{font-size:17px}
+}
 @media (max-width:900px){
   .hero,.why,.lower,.close-card,.paths,.calc{grid-template-columns:1fr}
   .hero{padding-block:36px 28px;gap:28px}
@@ -278,6 +306,24 @@ button{font:inherit;color:inherit}
 </style>
 </head>
 <body>
+<section class="wrap walk" aria-labelledby="walk-h">
+  <a class="walk-link" href="https://youtu.be/b_sAWqOslZM?si=Ahr66qJKbeXWbXUI" target="_blank" rel="noopener" aria-label="Watch the video walkthrough on YouTube: Meta Ads for Skool Communities, 14 minutes 47 seconds. Opens in a new tab.">
+    <span class="walk-card">
+      <img src="https://img.youtube.com/vi/b_sAWqOslZM/maxresdefault.jpg" alt="" loading="eager" onerror="this.onerror=null;this.src='https://img.youtube.com/vi/b_sAWqOslZM/hqdefault.jpg'">
+      <span class="walk-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 3.5v17l14-8.5z"/></svg></span>
+      <span class="walk-dur" aria-hidden="true">14:47</span>
+    </span>
+    <span class="walk-meta">
+      <span>
+        <span class="kicker">Watch first · the video walkthrough</span>
+        <strong id="walk-h">Meta Ads for Skool Communities: the order that makes them profitable</strong>
+      </span>
+      <span class="go">Play on YouTube <span aria-hidden="true">↗</span></span>
+    </span>
+  </a>
+  <p class="walk-cap">Opens in a new tab. Come back here for the guide, the checklist and the calculator.</p>
+</section>
+
 <header class="wrap hero">
   <div>
     <p class="kicker">For experts with a platform · Meta ads → a paid Skool</p>
